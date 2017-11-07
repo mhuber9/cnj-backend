@@ -1,0 +1,9 @@
+spring:
+ application:
+  name: hm-huber-cnj
+---
+spring:
+ profiles: dev, cloud
+ cloud:
+  config:
+   uri: https://hm-huber-config-server.cfapps.io
